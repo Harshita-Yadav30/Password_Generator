@@ -1,1 +1,2 @@
 # Password_Generator
+This a simple Password Generator web application designed using ReactJS. The app allows you to generate random passwords using lowercase alphabets, uppercase alphabets, digits, and special characterrs. The user can choose which characters he/she wants to be included in the password. Also, the length of the password can be decided by the user. The minimum password length is 10, whereas the maximum length is 20.
