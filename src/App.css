@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #caedf7;
+}
+
+.generator{
+  width: 20rem;
+  color: rgb(64, 63, 63);
+  background-color: #fff;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 8rem;
+  border: 1px solid black;
+}
+
+.password input{
+  width: 70%;
+  height: 2.5rem;
+  margin-right: 0.1rem;
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.password button{
+  width: 25%;
+  height: 2.7rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  position: relative;
+  top: -0.05rem;
+}
+
+.choices{
+  margin: 2.5rem 0;
+}
+
+.choice{
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin: 0.8rem 0;
+}
+
+.choice input{
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#generate{
+  width: 14rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: rgb(34, 80, 249);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#generate:hover{
+  opacity: 90%;
+}
+
+.pass-length{
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 0.8rem 0;
+}
+
+.pass-length input{
+  width: 3rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
